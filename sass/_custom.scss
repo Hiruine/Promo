@@ -1,0 +1,96 @@
+
+
+
+.carousel-inner > .item{ 
+	width:100%; 
+	height: 440px;
+}
+
+.promo-footer{
+	background: #2f2f2f;
+}
+
+#map-container {
+    height: 250px;
+    width: 100%;
+}
+
+.promo-footer > .container > .row {
+	margin-top: 20px;
+}
+
+.promo-footer .footer-right div {
+	padding-top: 10px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+}
+
+.promo-footer .footer-right i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.promo-footer .footer-right p{
+	display: inline-block;
+	vertical-align: middle;
+	color: white;
+	margin:0;
+}
+
+.promo-footer .footer-right p span {
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;	
+}
+
+.promo-footer .second-bar {
+    text-align: center;
+    text-align: center;
+    background: #212121;
+}
+
+.promo-footer .second-bar .logo a{
+    font-size: 28px;
+    float: left;
+    font-weight: bold;
+    line-height: 68px;
+    margin: 0;
+    padding: 0;
+}
+
+.promo-footer .second-bar a {
+    font-size: 22px;
+    padding: 10px;
+    transition: 0.2s;
+    line-height: 68px;
+}
+
+.promo-footer .second-bar a:hover {
+    text-decoration: none;
+}
+
+.promo-footer .social-icons {
+    float:right;
+}
+
+.promo-footer .facebook:hover {
+    color: #0077e2;
+}
+
+.promo-footer .google:hover {
+    color: #ef1a1a;
+}
+
+.promo-footer .twitter:hover {
+    color: #00aced;
+}
+

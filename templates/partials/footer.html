@@ -1,0 +1,55 @@
+
+<footer class="promo-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<div id="map-container"></div>				
+			</div>
+			<div class="col-md-4 footer-right">
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>Strada Independenței 40</span> Chisinau 2072</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+373 069 17 0303</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:depol_promo@mail.ru">depol_promo@mail.ru</a></p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="second-bar">
+		<div class="container">
+			<h2 class="logo"><a href="#"> Depol Promo </a></h2>
+			<div class="social-icons">
+				<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+				<a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+				<a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script>
+	function initMap() {
+		var uluru = {lat: 46.977313, lng: 28.862188};
+		var map = new google.maps.Map(document.getElementById('map-container'), {
+			zoom: 17,
+			center: uluru,
+		});
+		var marker = new google.maps.Marker({
+			position: uluru,
+			map: map
+		});
+	}
+</script>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB-jueFRFkKotNyfp4_ocFTZJUy5QGpAow&callback=initMap">
+</script>
+
